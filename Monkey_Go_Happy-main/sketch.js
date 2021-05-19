@@ -80,6 +80,9 @@ function draw() {
   obstacle();
   Food();
   drawSprites();
+  textSize(30);
+  fill(255);
+  text("Score: "+score ,300,100);
 }
 
 function Food(){
